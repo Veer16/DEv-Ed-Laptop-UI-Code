@@ -141,3 +141,13 @@ nav {
     transform: rotate(180deg);
     z-index: -2;
 }
+
+/* CSS for the dots */
+.laptop-select {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    position: absolute;
+    right: 25%;
+
+}
