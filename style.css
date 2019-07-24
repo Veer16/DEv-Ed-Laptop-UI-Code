@@ -113,6 +113,8 @@ nav {
     height: 60vh;
     /* to add the filter in the shadow on the png images use filter property */
     filter: drop-shadow(0px 5px 3px black);
+    /* add amnimation */
+    animation: drop 1.5s ease;
 
 }
 
@@ -150,4 +152,18 @@ nav {
     position: absolute;
     right: 25%;
 
+}
+
+/* animation for the hero image */
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
