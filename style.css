@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+    display: flex;
+}
+
+.logo-container {
+    /* The amount of space from the parent container this container will take will be defined with the flex property */
+    flex: 1;
+}
+
+.logo {
+    font-weight: 600;
+    margin: 5px;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+    align-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #5f5f79;
+    font-size: 18px;
+}
+
+.cart {
+    flex: 1;
+    justify-content: flex-end;
+}
